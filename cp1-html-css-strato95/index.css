@@ -1,0 +1,60 @@
+/*
+     Name: Anthony Lu
+     Date: October 2, 2018
+     Section: CSE 154 AJ
+     This is the index.css page for my first
+     creative project. It gives the pages in 
+     the first project a consistent feel by
+     setting many of the colors and spacing. 
+*/
+
+/*This stylizes the display of major
+elements such as body and paragraph*/
+
+body {
+	display: block;
+	text-align: center;
+	background-color: lightgreen;
+}
+
+p {
+	color: blue;
+	padding-top: 10px;
+	margin: 20px;
+}
+
+article {
+	color: gray;
+	font-size: 1.5em;
+}
+
+p.intro {
+	color: black;
+}
+
+h1 {
+	color: darkgreen;
+}
+
+/* This stylizes many of the non-text
+elements on the page, such as images.
+*/
+
+img {
+	padding: 0px;
+	margin-top: 20px;
+	border: 1px solid black;
+}
+
+footer {
+	margin-top: 50px;
+	font-size: 1.5rem;
+	color: darkred;
+}
+
+hr {
+	border-radius: 5px;
+	border-top: 1px dashed red;
+	border-bottom: 1px dashed red;
+	padding-top: 2px;
+}
