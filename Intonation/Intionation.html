@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<link rel="stylesheet" href="Intionation.css">
+	<script src="Intionation.js"></script>
+	<title>Pitch Accent Japanese</title>
+</head>
+<body>
+	<h1>Pitch Accent Search</h1>
+	<iframe src="https://www.sanseido.biz/" width="600" height="400" id='iframe'></iframe>
+	<button id="button" onclick = "setURL('https://www.sanseido.biz/')">Return to Search</button>
+	<div>
+	</div>
+	<script>
+	function setURL(url){
+    document.getElementById('iframe').src = url;
+	}
+	</script>
+</body>
+</html>

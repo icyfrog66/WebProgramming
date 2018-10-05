@@ -1,0 +1,12 @@
+{
+	"manifest_version": 2,
+	"name": "Sanseido Pitch Accent",
+	"description": "This extension shows the intonation of a word in Japanese",
+	"version": "1.0",
+
+	"browser_action": {
+		"default_icon": "fan.png",
+		"default_popup": "Intionation.html",
+		"default_title": "アクセント"
+	}
+}
