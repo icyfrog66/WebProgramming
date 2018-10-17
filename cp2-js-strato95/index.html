@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<!--
+	Name: Anthony Lu
+	Date: October 16, 2018
+	Section: CSE 154 AJ
+	This is index.html for creative project two. It
+	is the page where a random video can be played.
+	In the section below that on this html page,
+	a random (out of a predetermined list) picture
+	can be chosen to appear on the page. 
+-->
+<html>
+<head>
+	<title> Youtube Random Playlist</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="index.css">	
+	<script src="index.js"></script>
+</head>
+<body>
+	<section>
+		<h1>Add a Url to the playlist</h1>
+			<textarea rows="10" cols="60"></textarea>
+	</section>
+
+	<section>
+		<button type="button" id="addVideoSubmit" value="Add">
+			Add Video URL to Playlist</button>
+		<button type="button" id="RemoveCurrent" 
+			value="Remove Current">
+			Remove Current Video from Playlist
+		</button>
+		<button type="button" id="randomVideo">Random Video
+			(dOnT cLiCk ToO fAsT!)
+		</button>
+	</section>
+
+	<section>
+		<h2> Video Area </h2>
+			<iframe width="420" height="315" 
+				src="https://www.youtube.com/embed/f5i_3E7hyUY"
+				allowfullscreen>
+			</iframe>
+			<p class="citing">The video source can be accessed 
+				by clicking the "Youtube" button near the bottom 
+				right
+			</p>	
+	</section>
+	<hr>
+
+	<section >
+		<h1>Mirae Chum</h1>
+			<button type="button" id="addNewPicture">
+				Add New Picture
+			</button>
+			<button type="button" id="removeLast">
+				Remove Last Picture
+			</button>
+		<div id="mirae"></div>
+	</section>
+
+	<footer>
+		<p class="citing"> Images screenshotted from this 
+			<a href="https://www.youtube.com/embed/f5i_3E7hyUY">
+				video
+			</a>
+		</p>
+		<p>
+			Background screenshotted from 
+			<a href="https://comic.naver.com/webtoon/detail.nhn?titleId=713915&no=2&weekday=mon">
+				here
+			</a>
+			near the middle of the page.
+		</p>
+		<p> The default six videos in the playlist
+			are the following: 
+		</p>
+		<ul>
+			<li>
+				<a href="https://www.youtube.com/embed/f5i_3E7hyUY">
+					1
+				</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/embed/Q7GvkhVChM8">
+					2
+				</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/embed/CuJzJQWWQUQ">
+					3
+				</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/embed/EKL7VQgbavA">
+					4
+				</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/embed/m4Z0RN_KhK0">
+					5
+				</a>
+			</li>
+			<li>
+				<a href="https://www.youtube.com/embed/Mqps4anhz0Q">
+					6
+				</a>
+			</li>
+		</ul>
+	</footer>
+</body>
+</html>

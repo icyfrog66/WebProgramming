@@ -1,0 +1,53 @@
+/*
+	Name: Anthony Lu
+	Date: October 16, 2018
+	Section: CSE 154 AJ
+	This is index.css for creative project 2. 
+	It gives the page the background, text
+	colors for contrast against the background
+	, and centers the page.
+*/
+
+h1, h2 {
+	font-weight: bold;
+	font-size: 250%;
+	color: lightblue;
+}
+
+body {
+	position: relative;
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+    display: block;
+    background-image: url('images/background2.PNG');
+}
+
+.citing {
+	font-size: 70%;
+}
+
+p {
+	font-weight: bold;
+	color: lightblue;
+}
+
+a:visited {
+	color: lightblue;
+}
+
+header {
+	position: relative;
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+    display: block;
+}
+
+footer {
+	font-size: 70%;
+}
+
+ul {
+	list-style: none;
+}
